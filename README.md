@@ -59,7 +59,7 @@
 ## 数据准备
 对于Google Landmarks Dataset v2数据集，从该链接获得：https://github.com/cvdfoundation/google-landmark  
 对于GLDv2-clean Dataset数据集：[kaggle competition dataset](https://www.kaggle.com/c/landmark-retrieval-2021).  
-对于台中市地标数据集：已经在```./data```目录下，train.zip、test.zip以及index.zip分别表示训练集、测试集以及索引集
+对于台中市地标数据集：已经在```./data```目录下，train.zip、test.zip以及index.zip分别表示训练集（50类地标，2500张图像）、测试集（100张图像）以及索引集（10000张图像）
 
 训练集的格式应当按照如下格式存放：  
 ```
