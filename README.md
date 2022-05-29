@@ -56,7 +56,28 @@
 ### 更加简便地安装环境
 	$ pip install -r requirements.txt
 ## 数据准备
+对于Google Landmarks Dataset v2数据集，从该链接获得：https://github.com/cvdfoundation/google-landmark  
+对于GLDv2-clean Dataset数据集：[kaggle competition dataset](https://www.kaggle.com/c/landmark-retrieval-2021).  
+对于台中市地标数据集：已经在```./data```目录下，train.zip、test.zip以及index.zip分别表示训练集、测试集以及索引集
 
+训练集的格式应当按照如下格式存放：  
+```
+data
+├── train_clean.csv
+└── train
+    └── ###
+        └── ###
+            └── ###
+                └── ###.jpg
+```
+其中，train_clean.csv中应当标明训练的图片文件名称以及对应的类别：
+```
+id	landmark_id
+###	0
+###	12
+###	3
+...	...
+```
 ## 训练模型
 ## 评价模型
 ## 识别与检索
