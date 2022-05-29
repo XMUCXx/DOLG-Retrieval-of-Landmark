@@ -115,7 +115,7 @@ e.g. 00123.jpg和12888.jpg分别表示第1类和第13类地标。
 	```
 	$ python cal_mAP_testset.py -testdir ./data/test -index index_feature_DOLG.h5
 	```  
-运行完成后，在命令行或者根目录下的```Testset_mAP_log.txt```查看测试结果。
+运行完成后，在命令行或者根目录下的```Testset_mAP_log.txt```查看测试结果。  
 ```cal_mAP_testset.py```的参数说明如下：  
 1. ```-testdir {DIR_PATH}```, e.g.```-testdir ./data/test```，表示测试集文件夹路径
 2. ```-index {FILENAME}.h5```, e.g.```-index index_feature_DOLG.h5``` 表示索引集所有图像的图像描述符集合的存储路径
@@ -135,7 +135,7 @@ e.g.
 	```
 	python Retrieval.py -query ./data/test/00093.jpg -index index_feature_DOLG.h5 -result ./data/index
 	```  
-运行完成后，在命令行或者根目录下的```Retrieval_Results.txt```查看测试结果。
+运行完成后，在命令行或者根目录下的```Retrieval_Results.txt```查看测试结果。  
 ```Retrieval.py```的参数说明如下：  
 1. ```-query {FILENAME}.jpg```, e.g.```-query ./data/test/000931.jpg```，表示询问图像路径
 2. ```-index {FILENAME}.h5```, e.g.```-index index_feature_DOLG.h5``` 表示索引集所有图像的图像描述符集合的存储路径
