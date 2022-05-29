@@ -33,8 +33,30 @@
 |-- README.md		  说明文档
 ```
 ## 环境配置
-
+### 服务器配置
+- CPU：Intel(R) Xeon(R) Gold 5220R CPU @ 2.20GHz
+- GPU：NVIDIA A100-PCIE-40GB x 2
+- 内存：512GB
+- 显存：40GB x 2
+- 操作系统：CentOS Linux release 7.9.2009 (Core) 64 位
+### Python环境配置
++ PyTorch
++ PyTorch Lightning
++ timm
++ sklearn
++ pandas
++ jpeg4py
++ albumentations
++ python3
++ CUDA
++ numpy
++ os
++ h5py
++ argparse
+### 更加简便地安装环境
+	$ pip install -r requirements.txt
 ## 数据准备
+
 ## 训练模型
 ## 评价模型
 ## 识别与检索
