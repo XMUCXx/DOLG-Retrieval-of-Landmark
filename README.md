@@ -29,6 +29,8 @@
 |-- index_feature_DOLG.h5 索引集所有的图像描述符集合
 |-- Retrieval.py          地标检索功能
 |-- Retrieval_Results.txt 地标检索结果
+|-- requirements.txt	  Python环境配置
+|-- README.md		  说明文档
 ```
 ## 环境配置
 
